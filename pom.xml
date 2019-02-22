@@ -6,7 +6,13 @@
 
     <groupId>com.chen.dubbo</groupId>
     <artifactId>DubboTwoProject</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>1.0.1</version>
+    <modules>
+        <module>api</module>
+        <module>model</module>
+        <module>server</module>
+    </modules>
 
 
 </project>
